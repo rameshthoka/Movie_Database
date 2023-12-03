@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*Javascriptpro_*/
+/*Dont forget to follow me on github,instagram and codepen.*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c1d0e8;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    padding: 25px;
+    width: 380px;
+    background: #252528;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.container .search-box {
+    height: 45px;
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.container .search-box input {
+    all: unset;
+    height: 45px;
+    width: 215px;
+    font-size: 15px;
+    padding-left: 18px;
+    border-radius: 5px;
+    background: #121214;
+    color: white;
+}
+
+.container .search-box button {
+    all: unset;
+    height: 43px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F00000;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-left: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.container .result-box {
+    margin-top: 5px;
+    padding: 1px;
+}
+
+.container .result-box .img-box {
+
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .result-box .img-box img {
+    height: 220px;
+    width: 320px;
+    text-align: center;
+    padding-top: 12px;
+    padding-left: 45px;
+    padding-right: 25px;
+    border-radius: 20px;
+
+}
+
+.container .result-box .movie-title {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.container .result-box .rating {
+    font-size: 11px;
+    height: 18px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.container .result-box .rating i {
+    padding-right: 5px;
+    font-size: 14px;
+    color: #FFFF00;
+}
+
+.container .result-box .details {
+    font-size: 15px;
+    color: skyblue;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+.Genre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+
+.box-office {
+    font-weight: 400;
+    font-size: 12px;
+    color: skyblue;
+    padding-top: 18px;
+}
+
+.director {
+    font-weight: 400;
+    font-size: 12px;
+    color: red;
+    padding-top: 15px;
+}
+
+.Genre div {
+    border: 1px solid #a0a0a0;
+    font-size: 10px;
+    padding: 0.2em 1.6em;
+    border-radius: 0.4em;
+    font-weight: 400;
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.Genre div:hover {
+    background: #F00000;
+    border-color: #F00000;
+    transition: all .3s;
+}
+
+.container .result-box .storyline {
+    margin-top: 25px;
+}
+
+.container .result-box .cast {
+    margin-top: 8px;
+}
+
+.container .result-box .storyline h2,
+.container .result-box .director h2,
+.container .result-box .box-office h2,
+.container .result-box .cast h2 {
+    font-size: 17px;
+    color: white;
+}
+
+.container .result-box .box-office .collection {
+    color: skyblue;
+}
+
+.container .result-box .director .direc {
+    color: red;
+}
+
+.container .result-box .storyline span,
+.container .result-box .cast span {
+    font-size: 13px;
+    color: #919e9b;
+}
+
+.message {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+::selection {
+    background: rgb(100, 149, 237, 0.8);
+    color: white;
+}
